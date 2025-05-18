@@ -306,7 +306,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-  - jekyll-scholar
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -353,12 +352,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-
-scholar:
-  style: apa
-  locale: en
-  source: ./_bibliography
-  bibliography: publications.bib
-  bibliography_template: bibtex.html

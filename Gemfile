@@ -7,12 +7,8 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
-  gem 'jekyll-scholar'
 end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
-
-
-
-# gem 'webrick', '~> 1.7'  # Required for Ruby 3+
+gem 'jekyll-scholar'

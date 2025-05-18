@@ -346,7 +346,7 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-sitemap
   jemoji
-  webrick (~> 1.8)
+  webrick
 
 BUNDLED WITH
    2.6.9

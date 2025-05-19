@@ -1,5 +1,5 @@
 ---
-title: "Programming Large Language Models from Scratch"
+title: "从零手搓大语言模型 (Programming Large Language Models from Scratch)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-fall-teaching

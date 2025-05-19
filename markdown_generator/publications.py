@@ -80,6 +80,8 @@ for row, item in publications.iterrows():
     #     md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
     md += "\ndate: " + str(item.date) 
+
+    md += "\ncategory: conferences"
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
@@ -98,7 +100,7 @@ for row, item in publications.iterrows():
     # if len(str(item.excerpt)) > 5:
     #     md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+    # md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        
